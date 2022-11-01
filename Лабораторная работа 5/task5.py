@@ -9,4 +9,4 @@ def get_random_password(n=8) -> str:
     return ''.join(list_of_symbols)
 
 
-print(get_random_password(8))
+print(get_random_password())
