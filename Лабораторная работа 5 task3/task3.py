@@ -27,9 +27,9 @@ def get_unique_list_numbers2() -> list[int]:
     unique_list_numbers = list(range(-10, 10))
     list_ = []
     for _ in range(15):
-        a = choice(unique_list_numbers)
-        list_.append(a)
-        unique_list_numbers.remove(a)
+        number = choice(unique_list_numbers)
+        list_.append(number)
+        unique_list_numbers.remove(number)
 
     return list_
 
